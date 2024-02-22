@@ -16,7 +16,7 @@ const res = await fetch(`${API}/projects/${projectId}/deployments`, {
     assets: {
       "main.ts": {
         "kind": "file",
-        "content": `Deno.serve(() => new Response("Hello, World!"));`,
+        "content": `Deno.serve(() => new Response("Hello, World! Bosn Ma!❤️"));`,
         "encoding": "utf-8",
       },
     },
